@@ -6,7 +6,7 @@ const formations = [
     title: "Diplôme 42",
     school: "École 42 — niveau 21 équivalent Master",
     description:
-      "Faute de moyens, j'ai dû quitter Épitech pour l'école 42. Avec exactement la même philosophie : apprendre par soi-même. Avec un programme copié sur Epitech, j'ai très vite trouvé mes marques et pris beaucoup de plaisir pendant 5 ans.",
+      "Faute de moyens, j'ai dû quitter Epitech pour l'école 42. Avec exactement la même philosophie : apprendre par soi-même. Avec un programme copié sur Epitech, j'ai très vite trouvé mes marques et pris beaucoup de plaisir pendant 5 ans.",
   },
   {
     year: "2016",

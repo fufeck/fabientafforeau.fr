@@ -8,7 +8,7 @@ const experiences = [
     title: "Développeur Fullstack Senior",
     company: "Programme BAL",
     description:
-      "Développement de l'écosystème BAL. Différentes interface et API, pour que les communes puisse déclarer leurs adresses postal.",
+      "Développement de l'écosystème BAL. Différentes interfaces et API, pour que les communes puissent déclarer leurs adresses postales.",
   },
   {
     period: "2021 — 2023",
@@ -29,14 +29,14 @@ const experiences = [
     title: "CDI Développeur Fullstack / Drupal",
     company: "Cosium",
     description:
-      "Création et maintien de sites de e-commerces d'optique. Développement de fonctionnalité sur la solution SASS Cosium.",
+      "Création et maintien de sites de e-commerces d'optique. Développement de fonctionnalités sur la solution SaaS Cosium.",
   },
   {
     period: "2014 — 2017",
     title: "Stage Développeur WEB / Mobile",
     company: "MonBuilding / IAPulse / Amexium / Subvitamine",
     description:
-      "Stages et temps partiels pour des sites de e-commerces, application mobile hybride et solution SASS",
+      "Stages et temps partiels pour des sites de e-commerces, application mobile hybride et solution SaaS.",
   },
 ];
 
