@@ -5,8 +5,8 @@ const navLinks = [
   { label: 'Accueil', href: '#hero' },
   { label: 'Un peu plus sur moi', href: '#about' },
   { label: 'Compétences', href: '#skills' },
-  { label: 'Expérience', href: '#projects' },
-  { label: 'Formations', href: '#contact' },
+  { label: 'Expérience', href: '#experience' },
+  { label: 'Formations', href: '#formations' },
 ]
 
 function Navbar() {

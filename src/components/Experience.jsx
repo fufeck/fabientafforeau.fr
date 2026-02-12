@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import mountainBg from "../assets/mountain-bg.jpg";
+import mountainBg from "../assets/mountain-bg.webp";
 import "./Experience.css";
 
 const experiences = [
@@ -69,9 +69,9 @@ function Experience() {
   }, []);
 
   return (
-    <section id="projects" className="experience">
+    <section id="experience" className="experience">
       <div className="experience__bg">
-        <img src={mountainBg} alt="" />
+        <img src={mountainBg} alt="" width="1577" height="2909" loading="lazy" decoding="async" />
       </div>
       <div className="experience__inner container">
         <h2 className="section-title">Expérience</h2>

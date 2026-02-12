@@ -26,7 +26,7 @@ const formations = [
 
 function Formations() {
   return (
-    <section id="contact" className="formations">
+    <section id="formations" className="formations">
       <div className="formations__inner container">
         <h2 className="section-title">Formations</h2>
 
