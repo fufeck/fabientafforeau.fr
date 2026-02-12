@@ -12,24 +12,31 @@ const experiences = [
   },
   {
     period: "2021 — 2023",
-    title: "Développeur Fullstack",
+    title: "Freelance Développeur Fullstack",
     company: "OSIRIS",
     description:
       "Conception et développement d’une application pour ordonner et visualiser les formations et cursus des écoles de l’armée de l’air.",
   },
   {
     period: "2019 — 2021",
-    title: "Développeur Fullstack",
+    title: "Freelance Développeur Fullstack",
     company: "SEPIA",
     description:
       "Création et développement d’une application web pour visualiser le trafic aérien en temps réel (comme FlightRadar24).",
   },
   {
     period: "2017 — 2019",
-    title: "Développeur Fullstack / Drupal",
+    title: "CDI Développeur Fullstack / Drupal",
     company: "Cosium",
     description:
       "Création et maintien de sites de e-commerces d'optique. Développement de fonctionnalité sur la solution SASS Cosium.",
+  },
+  {
+    period: "2014 — 2017",
+    title: "Stage Développeur WEB / Mobile",
+    company: "MonBuilding / IAPulse / Amexium / Subvitamine",
+    description:
+      "Stages et temps partiels pour des sites de e-commerces, application mobile hybride et solution SASS",
   },
 ];
 
@@ -71,7 +78,14 @@ function Experience() {
   return (
     <section id="experience" className="experience">
       <div className="experience__bg">
-        <img src={mountainBg} alt="" width="1577" height="2909" loading="lazy" decoding="async" />
+        <img
+          src={mountainBg}
+          alt=""
+          width="1577"
+          height="2909"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
       <div className="experience__inner container">
         <h2 className="section-title">Expérience</h2>
