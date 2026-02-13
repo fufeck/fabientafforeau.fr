@@ -1,0 +1,24 @@
+.brick-name {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.brick-name__canvas {
+  display: block;
+  width: 100%;
+  cursor: crosshair;
+}
+
+.brick-name__hint {
+  font-size: var(--font-size-xs);
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+  margin-top: 0.5rem;
+  transition: opacity var(--transition-slow);
+}
+
+.brick-name__hint--hidden {
+  opacity: 0;
+  pointer-events: none;
+}

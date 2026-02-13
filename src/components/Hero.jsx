@@ -1,10 +1,25 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useSyncExternalStore } from 'react'
 import heroPhoto from '../assets/hero-photo.webp'
 import heroPhotoMobile from '../assets/hero-photo-mobile.webp'
+import BrickName from './BrickName'
 import './Hero.css'
+
+const desktopQuery = '(min-width: 768px)'
+function subscribeToMedia(cb) {
+  const mq = window.matchMedia(desktopQuery)
+  mq.addEventListener('change', cb)
+  return () => mq.removeEventListener('change', cb)
+}
+function getMediaSnapshot() {
+  return window.matchMedia(desktopQuery).matches
+}
+function getServerSnapshot() {
+  return false
+}
 
 function Hero() {
   const photoRef = useRef(null)
+  const isDesktop = useSyncExternalStore(subscribeToMedia, getMediaSnapshot, getServerSnapshot)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,11 +50,20 @@ function Hero() {
       </div>
       <div className="hero__inner container">
         <div className="hero__text">
-          <p className="hero__greeting">Bonjour, je suis</p>
-          <hgroup>
-            <h1 className="hero__name">Fabien Tafforeau</h1>
-            <p className="hero__title">Développeur Fullstack</p>
-          </hgroup>
+          {isDesktop ? (
+            <>
+              <h1 className="hero__name sr-only">Fabien Tafforeau</h1>
+              <BrickName />
+            </>
+          ) : (
+            <>
+              <p className="hero__greeting">Bonjour, je suis</p>
+              <hgroup>
+                <h1 className="hero__name-mobile">Fabien Tafforeau</h1>
+                <p className="hero__title">Développeur Fullstack</p>
+              </hgroup>
+            </>
+          )}
         </div>
       </div>
     </section>
