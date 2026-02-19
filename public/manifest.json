@@ -1,7 +1,7 @@
 {
-  "name": "Fabien Tafforeau — Portfolio",
+  "name": "Fabien Tafforeau — Site Web",
   "short_name": "F. Tafforeau",
-  "description": "Portfolio de Fabien Tafforeau, Développeur Fullstack basé en France.",
+  "description": "Site Web de Fabien Tafforeau, Développeur Fullstack basé en France.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#2b3341",

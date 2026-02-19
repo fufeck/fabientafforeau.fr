@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal portfolio website for Fabien Tafforeau (www.fabientafforeau.fr), a French fullstack developer. The site is a single-page application written in French, built with React 19 and Vite 7, and deployed to GitHub Pages via GitHub Actions on push to `main`.
+Personal website for Fabien Tafforeau (www.fabientafforeau.fr), a French fullstack developer. The site is a single-page application written in French, built with React 19 and Vite 7, and deployed to GitHub Pages via GitHub Actions on push to `main`.
 
 ## Commands
 
